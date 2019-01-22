@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class ReadAndPrintInReverse {
 
     /**
-     * @param args the command line arguments
+     * @param args the command line arguments will be empty as this program doesn't take any arguments
      */
     public static void main(String[] args) {
         
@@ -28,7 +28,6 @@ public class ReadAndPrintInReverse {
         //Verify the reading step
        // System.out.println("You Entered :" + name);
         
-    
        //(2) Store the characters of the input name into an array of chars
        char[] nameInChars = new char[name.length()];
        
@@ -44,6 +43,7 @@ public class ReadAndPrintInReverse {
        for(int i=nameInChars.length-1  ; i>=0; i--)
            System.out.println(nameInChars[i]);
     
+       // tests passed successfully 
     }
     
 }
